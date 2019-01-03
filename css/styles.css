@@ -387,3 +387,17 @@ a.fb-message-blue:focus {
   float: left;
   margin-right: 5px;
 }
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+.youtube-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
