@@ -340,14 +340,15 @@ blockquote:before {
   Blue Button
 ---------------------------*/
 
-a.fb-message-blue {
+a.message-green {
   font-size: 16px;
   font-family: Helvetica, Arial, sans-serif;
   text-decoration: none;
   color: #fff;
-  background-color: #0084ff;
-  border: 1px solid #0084ff;
-  width: 127px;
+  text-align: center;
+  background-color: #2AB27B;
+  border: 1px solid #2AB27B;
+  width: 100px;
   height: 35px;
   line-height: 35px;
   position: fixed;
@@ -359,33 +360,20 @@ a.fb-message-blue {
   transition: all ease .15s;
   z-index: 2000;
 }
-a.fb-message-blue:hover {
-  background-color: #2093ff;
-  border: 1px solid #2093ff;
+a.message-green:hover {
+  background-color: #2AB27B;
+  border: 1px solid #2AB27B;
   -webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.2);
   -moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.2);
   box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.2);
   /* transform: scale(1.15); */ /* uncomment to add zoom effect */
 }
-a.fb-message-blue:focus {
-  background-color: #0084ff;
-  border: 1px solid #0084ff;
+a.message-green:focus {
+  background-color: #2AB27B;
+  border: 1px solid #2AB27B;
   -webkit-box-shadow: inset 0px 0px 8px 0px rgba(0,0,0,0.3);
   -moz-box-shadow: inset 0px 0px 8px 0px rgba(0,0,0,0.3);
   box-shadow: inset 0px 0px 8px 0px rgba(0,0,0,0.3);
-}
-
-.fb-message-blue i {
-  background-image: url('https://i.imgur.com/hjwozo7.png');
-  background-repeat: no-repeat;
-  background-size: 17px;
-  background-position: 7px 9px;
-  top: -1px;
-  height: 26px;
-  width: 26px;
-  padding: 10px 7px;
-  float: left;
-  margin-right: 5px;
 }
 
 .video-container {
